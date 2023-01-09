@@ -25,4 +25,8 @@ class PageController extends Controller
         }
         return view('descriptionMovie', compact('movie'));
     }
+
+    public function Contacts(){
+        return view('contacts');
+    }
 }
