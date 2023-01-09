@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    color: brown;
+    text-decoration: underline;
+}
