@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <div class="col-4 offset-4">
                 <div class="card">
@@ -21,5 +21,6 @@
                   </div>
             </div>
         </div>
+        <a class="btn btn-primary my-5" href="{{route('home')}}"> <-- INDIETRO </a>
     </div>
 @endsection
