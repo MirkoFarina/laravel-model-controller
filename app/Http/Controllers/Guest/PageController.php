@@ -19,6 +19,10 @@ class PageController extends Controller
 
     public function Description($id){
         $movie = Movie::find($id);
+
+        if(is_null($movie)) {
+            abort(404, 'Ci dispiace ma il film non è stato trovato, la invitiamo a riprovare');
+        }
         return view('descriptionMovie', compact('movie'));
     }
 }
